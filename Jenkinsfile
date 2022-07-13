@@ -6,7 +6,7 @@ stages{
 
   stage('CheckOutCode'){
     steps{
-    git branch: 'development', url: 'https://github.com/Ajithkolal/mbp_Jenkins.git'
+    git branch: 'Master', url: 'https://github.com/Ajithkolal/mbp_Jenkins.git'
 	
 	}
   }
